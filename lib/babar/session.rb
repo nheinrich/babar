@@ -5,7 +5,7 @@ module Babar::Session
   format :json
 
 
-  # Start a session with Elephant Talk
+  # Start a session with Elephant Talk (24 hour expiration)
   #
   # ==== Attributes
   #
@@ -28,7 +28,7 @@ module Babar::Session
   end
 
   def self.id
-    @id || "wtf"
+    @id
   end
 
 
