@@ -1,7 +1,6 @@
 module Babar::Plan
 
-  include ::HTTParty
-  format :json
+  include Babar::API
 
   def find(rate_plan_id)
     url = "#{Babar.base_url}/CustomerPOS/GetRatePlan?sessionId=#{Babar::Session.id}&RateplanItemId=#{rate_plan_id}"

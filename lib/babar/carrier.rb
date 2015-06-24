@@ -1,6 +1,5 @@
 module Babar::Carrier
 
-  include ::HTTParty
-  format :json
+  include Babar::API
 
 end

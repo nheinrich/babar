@@ -1,7 +1,6 @@
 module Babar::Customer
 
-  include ::HTTParty
-  format :json
+  include Babar::API
 
   # Check for coverage in a specific area
   #

@@ -1,7 +1,6 @@
 module Babar::Supplier
 
-  include ::HTTParty
-  format :json
+  include Babar::API
 
   # Retreive a list of service providers
 

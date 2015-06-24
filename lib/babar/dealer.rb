@@ -1,6 +1,5 @@
 module Babar::Dealer
 
-  include ::HTTParty
-  format :json
+  include Babar::API
 
 end
