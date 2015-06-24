@@ -5,6 +5,7 @@ require "json"
 babar_path = File.expand_path(File.dirname(__FILE__))
 
 require "#{babar_path}/babar/babar.rb"
+require "#{babar_path}/babar/api.rb"
 
 Dir["#{babar_path}/babar/**/*"].each do |file|
   require file
